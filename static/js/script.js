@@ -32,7 +32,7 @@ jQuery(document).ready(function($) {
 
     var portrait_modal = $('[data-remodal-id=portrait-modal]').remodal();
     $(".portrait").click(function(event) {
-        portrait_modal.open();
+        // portrait_modal.open();
     });
     $('[data-remodal-id=portrait-modal] button').click(function(event) {
         $(".portrait").css('background-image', 'url("{0}")'.format($("#avatar-url").val()));
@@ -66,7 +66,7 @@ jQuery(document).ready(function($) {
     });
 
     $('.unit-remove').click(function(event) {
-        $(this).closest(".info-unit").remove();
+        // $(this).closest(".info-unit").remove();
     });
 
     $('.item-remove').click(function(event) {
@@ -74,12 +74,12 @@ jQuery(document).ready(function($) {
     });
 
     $('.item-add').click(function(event) {
-        var unit = $(this).closest(".info-unit");
+        /* var unit = $(this).closest(".info-unit");
         if (unit.children('ul')){
             var list = unit.children('ul');
             var clone = list.children('li:first-child').clone(true);
             list.append(clone);
-        }
+        } */
 
     });
     $("progress").click(function(event) {
