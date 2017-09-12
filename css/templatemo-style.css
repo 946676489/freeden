@@ -387,9 +387,13 @@ a:hover, a:active, a:focus {
   -ms-flex-align: center;
   align-items: center;
   height: 100vh;
-  padding: 35vh 45px 0 45px;
+  padding: 0 45px 0 45px;
 }
 
+.home-a{
+	padding-top:35vh;
+
+}
 
 
 /*---------------------------------------
